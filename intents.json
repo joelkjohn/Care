@@ -1,0 +1,136 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello"
+        ],
+        "responses": [
+          "Hey there, how was your day?",
+          "Hello there friend, im here to listen, how was your day?",
+          "Hi there, how was your day?",
+          "Hi there, how's your day?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanking",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to be here for you!", "Any time!", "My pleasure", "Ill be here"]
+      },
+      {
+        "tag": "goodday",
+        "patterns": [
+          "Im fine",
+          "Im good today",
+          "My day has been fine",
+          "Its been okay",
+          "Im doing good",
+          "It was good"
+        ],
+        "responses": [
+          "Thats great to hear!! Tell me more about it",
+          "Thats amazing, any special events today?"
+          
+        ]
+      },
+
+
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "badday",
+        "patterns": ["not really my day", "not the best", "could be better"],
+        "responses": [
+          "Sorry to hear that, let me know more about it",
+          "Tell me more about it"
+          
+        ]
+      },
+      {
+        "tag":"badevent",
+        "patterns":["I didnt manage to meet my deadlines today","I let someone down today", "I made a mistake today"],
+        "responses":["Oh i see, perhaps there are somethings you can learn from what has happened today, perhaps you could write it down in the journal, anything good happened today?", 
+        "I hear you, is there anything you enjoy doing to take your mind of it?"]
+
+      },
+
+      {
+        "tag": "goodevent",
+        "patterns": ["I managed to complete my assignments today", "I finished my tasks for today", "I helped a friend today","I helped out in school today", "I was on time for classes today"],
+        "responses":[
+          "Wow, thats pretty good. How does that make you feel?", 
+        "Does that make you feel happy?", 
+        "Nice, how do you feel about that?"]
+      },
+
+
+      {
+        "tag": "goodeventfeeling",
+        "patterns": ["I feel good about it", "I am grateful that it happened", "I am happy about it"],
+        "responses": ["Thats great, perhaps you could write something about it within your journal, is there anything you do? like a hobby?",
+          "Thats nice to hear, if this is something important to you, you could add this into your journal, is there anything you enjoy doing?"]
+      },
+
+
+      {
+        "tag":"hobbies",
+        "patterns":["I do enjoy a few sports", "i do enjoy a few physical activities"],
+        "responses":["Thats great, may i know what exactly that is?", "Thats nice, what is it exactly?"]
+      },
+
+      {
+        "tag":"specifichobby",
+        "patterns":["I play football sometimes", "I like to read when im free", "i enjoy cycling from time to time"],
+        "responses":["Oh wow, it must be fun when youre doing this right?", "That sounds like fun, it was right?"]
+      },
+
+      {
+        "tag":"funhobby",
+        "patterns":["Yeah it was fun", "Its always fun", "Ill never not have fun when im doing that"],
+        "responses":["Nice nice, maybe you could go into those hobbies with some friends, woudlnt it be more fun with friends?", "It would be nice to have some friends over for that someday dont you think?"]
+      },
+
+      {
+        "tag":"agreetofriends",
+        "patterns":["Yeah its always better with friends over", "Of course it would be fun", "Yeah that would be nice"],
+        "responses":["Maybe you can write about having your friends over one day for some fun activities in your journal, how often would you do this with friends?",
+         "Maybe you could share more about this in the journal feature you have here, how often would you want to do this with friends"]
+      },
+
+      {
+        "tag":"nofriend",
+        "patterns":["Oh but i rarely hang out with my friends", "I dont have many friends"],
+        "responses":["Oh i hear you, perhaps you could join some events to meet new friends and people, you never know who you'll meet",
+         "Perhaps you could make new friends with the same interests as you"]
+
+      },
+
+      {
+        "tag":"oftenfriend",
+        "patterns":["I guess i would probably hangout with them twice a month", "Maybe soon I will", "probably once a week"],
+        "responses":["Oh i see, that would be fun for sure, cant wait for that. If you want to talk more, just say hi to awaken me"]
+      }
+    ]
+
+  }
